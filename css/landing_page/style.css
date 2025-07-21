@@ -1,0 +1,162 @@
+.cont{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.leftCont{
+	background-image: url("../../images/home_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex-basis: 70%;
+	height: 100%;
+	font-size: 65px;
+	line-height: 1.4em;
+	display: block;
+	font-weight: 600;
+	padding: 10px;
+}
+.leftCont .header-title{
+	width: 100%;
+	height: 30%;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.leftCont .header-img{
+	width: 100%;
+	height: 70%;
+	padding: 2%;
+}
+.rightCont{
+	flex-basis: 30%;
+	height: 100%;
+	padding-top: 100px;
+}
+.rightCont .switchBtn{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 25px;
+}
+.rightCont .switchBtn button{
+	width: auto;
+	padding: 10px 2px;
+	font-size: 24px;
+	font-weight: 700;
+	border: none;
+	border-bottom: 4px solid #064470;
+	cursor: pointer;
+	background: none;
+	text-align: center;
+	align-items: center;
+}
+.rightCont .switchBtn button:active{
+	transform: scale(0.95);
+}
+.rightCont .loginCont, .rightCont .registerCont{
+	width: 100%;
+	height: auto;
+}
+.rightCont .registerCont{
+	display: none;
+}
+.rightCont .loginCont form, .rightCont .registerCont form{
+	width: 90%;
+	padding: 0 5%;
+	margin: auto;
+}
+form .form-div{
+	display: flex;
+	width: 100%;
+	border: 1.8px solid #ccc;
+	align-items: center;
+	border-radius: 5px;
+	padding: 10px 5px;
+	gap: 5px;
+	margin: 18px 0;
+}
+.form-div.focused {
+	box-shadow: 0 0 10px #064470;
+	border: none;
+}
+form .form-div i, form .form-div input{
+	font-size: 18px;
+	height: 100%;	
+	border: none;
+	outline: none;
+}
+form .form-div i{
+	width: auto;
+	height: 100%;
+	padding: 5px;
+	font-weight: 600;
+}
+form .form-div input::placeholder{
+	color: #064470;
+	opacity: 0.8;
+}
+form button{
+	font-size: 18px;
+	font-weight: 600;
+	padding: 7px;
+	background: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	background: #064470;
+	border: none;
+}
+form button:active{
+	transform: scale(0.97);
+}
+.rightCont .loginCont a{
+	text-align: center;
+	margin-top: 25px;
+	text-decoration: none;
+	justify-content: center;
+	display: flex;
+}
+.rightCont .loginCont a:hover{
+	text-decoration: underline;
+}
+
+
+@media screen and (max-width: 950px){
+
+.cont{
+	display: block;
+}
+.leftCont{
+	flex-basis: 100%;
+	font-size: 55px;
+	line-height: 1.2em;
+	font-weight: 700;
+	text-align: center;
+	padding: 30px 20px;
+	height: auto;
+}
+.leftCont .header-title{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin-bottom: 20px;
+}
+.leftCont .header-img{
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+
+}
+@media screen and (max-width: 950px) and (orientation: landscape){
+
+.leftCont{
+	font-size: 55px;
+}
+.rightCont{
+	height: auto;
+	padding: 10% 0;
+}
+
+}
