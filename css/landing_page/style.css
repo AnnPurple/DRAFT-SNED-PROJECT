@@ -148,12 +148,13 @@ form button:active{
 	padding: 0;
 }
 
-
 }
 @media screen and (max-width: 950px) and (orientation: landscape){
 
 .leftCont{
 	font-size: 55px;
+	line-height: 1.4em;
+	padding: 50px 20px;
 }
 .rightCont{
 	height: auto;
