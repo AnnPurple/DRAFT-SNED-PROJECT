@@ -129,24 +129,25 @@ form button:active{
 }
 .leftCont{
 	flex-basis: 100%;
-	font-size: 48px;
+	font-size: 40px;
 	line-height: 1.2em;
 	font-weight: 700;
 	text-align: center;
-	padding: 30px 20px;
+	padding: 70px 20px;
 	height: auto;
 }
 .leftCont .header-title{
 	width: 100%;
 	height: auto;
 	padding: 0;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .leftCont .header-img{
 	width: 100%;
 	height: auto;
 	padding: 0;
 }
+
 
 }
 @media screen and (max-width: 950px) and (orientation: landscape){
