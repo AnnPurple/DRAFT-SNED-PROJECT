@@ -162,3 +162,9 @@ form button:active{
 }
 
 }
+
+@media screen and (max-width: 950px) and (orientation: portrait){
+	.leftCont h3{
+		padding: 0 20px;
+	}
+}
